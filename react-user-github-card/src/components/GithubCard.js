@@ -11,7 +11,7 @@ class GithubCard extends React.Component {
   render() {
     return (
     <div>
-      <img src={this.props.data.avatar_url} alt="My avatar image"/>
+      <img src={this.props.data.avatar_url} alt="My avatar"/>
       <h2>Username: {this.props.data.login}</h2>
       <p>Full Name: {this.props.data.name}</p>
       <p>
