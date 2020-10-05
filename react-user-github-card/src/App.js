@@ -1,7 +1,11 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import axios from 'axios';
 import './App.css';
 import GithubCard from './components/GithubCard';
+
+// Material UI Imports
+import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@material-ui/core';
 
 class App extends React.Component {
 
